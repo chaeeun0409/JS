@@ -1,5 +1,6 @@
-let output = ''
-for(let i = 1; i<15; i++){
+
+    let output = ''
+    for(let i = 1; i<15; i++){
     for(let j = 15; j>i; j--){
         output += ''
     }
@@ -8,4 +9,5 @@ for(let i = 1; i<15; i++){
     }
     output += '\n'
 }
-console.log(output);
+    console.log(output);
+
